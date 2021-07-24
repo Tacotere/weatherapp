@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="design.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="layoutContainer">
+      <div class="desc1" id="currentCity"></div>
+      <div id="currentTemp"></div>
+      <div class="desc1" id="weatherDesc"></div>
+      <div id="windHumid">
+        <div id="wind"></div>
+        <div id="humid"></div>
+      </div>
+      <div id="projectionContainer">
+        <div class="projectionBox" id="day0"></div>
+        <div class="projectionBox" id="day1"></div>
+        <div class="projectionBox" id="day2"></div>
+        <div class="projectionBox" id="day3"></div>
+      </div>
+    </div>
+    <div id="layoutContainer2">
+      <form id="form">
+        <input type="text" id="searchbar" placeholder="Search City..." />
+        <input type="submit" id="submit" value="Search" />
+      </form>
+
+      <div id="currentCity2" class="desc2"></div>
+      <hr />
+
+      <div id="currentTemp2"></div>
+      <div id="tempText"></div>
+      <div id="weatherDesc2" class="desc2"></div>
+      <div id="windHumid2">
+        <div id="wind2"></div>
+        <div id="humid2"></div>
+      </div>
+
+      <hr />
+      <div id="projectionContainer2" class="desc2">
+        <div id="projectionText"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
